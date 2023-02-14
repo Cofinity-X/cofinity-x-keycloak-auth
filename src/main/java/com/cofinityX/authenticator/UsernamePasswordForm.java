@@ -106,8 +106,8 @@ public class UsernamePasswordForm extends AbstractUsernameFormAuthenticator impl
         UserModel user = this.getUser(context, username);
         if (user == null) {
             Response response = context.form().setAttribute(Constant.REALM, context.getRealm())
-                    .setAttribute(Constant.EMAIL_FIELD_ERROR, Constant.USER_NOT_FOUND)
-                    .addError(new FormMessage(Constant.USER_NOT_FOUND))
+                    .setAttribute(Constant.EMAIL_FIELD_ERROR, Constant.INVALID_PASSWORD)
+                    .addError(new FormMessage(Constant.INVALID_PASSWORD))
                     .createForm(Constant.LOGIN_FTL);
             context.challenge(response);
             context.failure(AuthenticationFlowError.INVALID_CREDENTIALS, response);
