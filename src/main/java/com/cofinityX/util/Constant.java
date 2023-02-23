@@ -18,8 +18,8 @@ public class Constant {
 
     public static final String USER_GLOBAL_ERROR = "userError";
     public static final String EMAIL_FIELD_ERROR = "emailError";
-    public static final String EMAIL_NOT_FOUND = "Email is required";
-    public static final String INVALID_EMAIL_FORMAT = "Invalid Email format";
+    public static final String EMAIL_NOT_FOUND = "Email-Address is required";
+    public static final String INVALID_EMAIL_FORMAT = "Email-Address must be in valid format";
     public static final String PWD_FIELD_ERROR = "pwdError";
     public static final String PWD_NOT_FOUND = "Password is required";
     public static final String INVALID_PASSWORD = "Either username or password is not correct";
