@@ -78,7 +78,7 @@
     </dependencies>
 
     <build>
-        <finalName>customAuthentication</finalName>
+        <finalName>CustomAuthentication</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
