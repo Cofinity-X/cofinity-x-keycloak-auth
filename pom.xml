@@ -19,7 +19,7 @@
         <repository>
             <id>github</id>
             <name>Keycloak IDP Maven Packages</name>
-            <url>https://github.com/Cofinity-X/cofinity-x-keycloak-auth/target</url>
+            <url>https://maven.pkg.github.com/Cofinity-X/cofinity-x-keycloak-auth</url>
         </repository>
     </distributionManagement>
 
