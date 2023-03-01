@@ -27,12 +27,12 @@
         </profile>
     </profiles>
 
-    <servers>
+    <!--<servers>
         <server>
             <id>github</id>
             <username>smartjigar</username>
             <password>${{ secrets.GITHUB_TOKEN }}</password>
         </server>
-    </servers>
+    </servers>-->
 
 </settings>
